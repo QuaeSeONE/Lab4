@@ -10,7 +10,6 @@ int main() {
 		printf ("Errror! There is no solution\n"); 
 		return 1; 
 	} 
-
 	printf ("Answer: x1 = %.1lf, x2 = %.1lf\n", x1, x2); 
 	return 0; 	
 }
