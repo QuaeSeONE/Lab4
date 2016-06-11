@@ -2,10 +2,8 @@
 #include "sqr.h"
 
 double sqr (double a, double b, double c, double *x1, double *x2) {
-	double d;
-	d = b * b - 4 * a * c;
-	if (d < 0) 
-		return 1;
+	double d = b * b - 4 * a * c;
+	if (d < 0) return 1;
 
 	if (d == 0) {
 		*x1 = -b / (2 * a);
